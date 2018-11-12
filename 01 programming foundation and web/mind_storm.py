@@ -5,11 +5,11 @@ def draw_shapes():
 	window.bgcolor('red')
 
 	# draw a square
-	def draw_sqare():
+	def draw_square():
 		brad = turtle.Turtle()
 		brad.shape("circle")
 		brad.color("blue")
-		brad.fill(True)
+		# brad.fill(True)
 		brad.speed(10)
 		# repeat drawing square to form circle
 		for i in range(1, 37):
@@ -18,7 +18,7 @@ def draw_shapes():
 				brad.forward(100)  # Move 100 step forward
 				brad.right(90)  # turn right at 90 degree angle
 			brad.left(10)  # tilt created square left by 10 degree
-		brad.fill(False)
+		# brad.fill(False)
 
 	# draw a circle with fill
 	def draw_circle():
@@ -44,9 +44,18 @@ def draw_shapes():
 				titi.left(120)  # turn left at 120 degree angle
 			titi.right(10)
 
-	draw_sqare()
-	#draw_circle()
+	draw_square()
+	# draw_circle()
 	draw_triangle()
+
+	# Draw Line
+	line = turtle.Turtle()
+	line.right(90)
+	line.forward(300)
+	line.shape("turtle")
+	line.color("blue")
+
 	window.exitonclick()
+
 
 draw_shapes()
