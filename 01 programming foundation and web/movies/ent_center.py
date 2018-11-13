@@ -42,5 +42,5 @@ joyful_noise = media.Movie("Joyful Noise",
                            "https://www.youtube.com/watch?v=lLyVSLhCdtA")
 
 movies = [toy_story, avengers, incredibles, antman, superman, let_it_shine, joyful_noise]
-fresh_tomatoes.open_movies_page(movies)
-
+# fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATING)
