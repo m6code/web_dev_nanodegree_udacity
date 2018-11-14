@@ -3,12 +3,16 @@
 ###### 01. Programming foundation with python
 ###### 02. Html and Css
 ###### 04. Responsive Design
+###### 05. Shell Workshop
+###### 06. Version Control
+
 
 Using twilio benfrank101 +18065471588
 sid: AC5b213cabb4007b167882da6ba576db5d
 authT: 404089f2a7fd84edb75fe7d89cc35328
 
 Download Markdown Cheat sheet
+bashrcgenerator.com 
 
 ### RESPONSIVE DESIGN FUNDAMENTALS    
 
@@ -95,3 +99,15 @@ Fixes the space around it
 ### Shell WorkShop
 * ; concatinate and run multiple commands at once
 * ~ home directory
+* ls -l : detailed list all files in directory
+* mkdir : create a new directory
+* mv 'from/folder to/folder' : move files
+* curl -o google.html -L 'https://google.com' : downloads google.com and saves to a file google.html
+* less file.ext :   to view a file line by line
+* cat file.ext :    to view full file
+* rm filename :     to remove a file permanently
+* rm -i filename :  to remove file with interaction
+* rmdir directory:  to remove directory
+
+
+
