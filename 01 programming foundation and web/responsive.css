@@ -1,4 +1,4 @@
-h4 {
+p {
     text-align: center;
 }
 
@@ -49,5 +49,20 @@ h4 {
         width: 20%;
         order: 7;
         background-color: green;
+    }
+}
+@media screen and (max-width: 359px){
+    #cyan{width: 100%; order: 7; background-color: cyan;}
+    .red{width: 50%; order: 3; background-color: red;}
+    .orange{width: 50%; order: 2; background-color: orange;}
+    #teal{width: 100%; order: 1; background-color: teal;}
+    .light_blue{width: 20%; order: 4; background-color: lightblue;}
+    .dark_blue{width: 60%; order: 5; background-color: darkblue;}
+    .green{width: 20%; order: 6; background-color: green; }
+
+    /*Change the text size*/
+    p {
+        text-align: center;
+        font-size: smaller;
     }
 }
