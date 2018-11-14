@@ -83,3 +83,18 @@ p {
         font-size: x-large;
     }
 }
+
+@media screen and (min-width: 2560px){
+    #cyan{width: 100%; order: 4; background-color: cyan;}
+    .red{width: 50%; order: 3; background-color: red;}
+    .orange{width: 50%; order: 2; background-color: orange;}
+    #teal{width: 100%; order: 1; background-color: teal;}
+    .light_blue{width: 20%; order: 5; background-color: lightblue;}
+    .dark_blue{width: 60%; order: 6; background-color: darkblue;}
+    .green{width: 20%; order: 7; background-color: green; }
+
+    /*Change the text size*/
+    p {
+        font-size: xx-large;
+    }
+}
