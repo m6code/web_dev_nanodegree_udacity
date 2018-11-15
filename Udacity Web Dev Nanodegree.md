@@ -7,12 +7,14 @@
 ###### 06. Version Control
 
 
+
 Using twilio benfrank101 +18065471588
 sid: AC5b213cabb4007b167882da6ba576db5d
 authT: 404089f2a7fd84edb75fe7d89cc35328
 
 Download Markdown Cheat sheet
 bashrcgenerator.com 
+Download Version control cheatsheet
 
 ### RESPONSIVE DESIGN FUNDAMENTALS    
 
@@ -109,5 +111,25 @@ Fixes the space around it
 * rm -i filename :  to remove file with interaction
 * rmdir directory:  to remove directory
 
+### Version Control
+Centralized : one computer controls the rest
 
+Distributed : every other computer has it's own file
+
+HEAD : Points to the branch that is currently being worked on
+###### Areas
+* Working Directory : contains file you're currently working on
+* Staging Index : contains all the files that are about to be committed
+* Repository: contains all saved/committed files
+###### Unfamiliar Commands
+* git log --oneline : list changes in a single line
+* git log --stat : list the files changed
+* git log -p : list the changes or patches made to file
+* git tag -a v1.0 
+* git merge : combine changes
+* git commit --amend : Alter the most recent commit
+* git revert : Reverse a commit
+* git reset --hard HEAD~1: Deletes changes
+* git reset --soft HEAD~1: reset changes to the stagging area
+* git reset --hard HEAD~1: reset changes to the working area
 
