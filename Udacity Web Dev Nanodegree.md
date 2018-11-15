@@ -4,7 +4,8 @@
 ###### 02. Html and Css
 ###### 04. Responsive Design
 ###### 05. Shell Workshop
-###### 06. Version Control
+###### 06. Version Control with Git
+###### 07. Github and How to Collaborate on a VCS Project
 
 
 
@@ -111,7 +112,7 @@ Fixes the space around it
 * rm -i filename :  to remove file with interaction
 * rmdir directory:  to remove directory
 
-### Version Control
+### Version Control with Git
 Centralized : one computer controls the rest
 
 Distributed : every other computer has it's own file
@@ -132,4 +133,13 @@ HEAD : Points to the branch that is currently being worked on
 * git reset --hard HEAD~1: Deletes changes
 * git reset --soft HEAD~1: reset changes to the stagging area
 * git reset --hard HEAD~1: reset changes to the working area
+
+### Github and How to Collaborate on a VCS Project
+Before rebasing create a branch of the master
+
+rebasing squash / combine commits into one
+###### Unfamiliar Commands
+* git remote add origin "repoURL" : to add remote origin
+* git push -u origin master : push to the master branch on the remote
+* git rebase -i HEAD~3 : squash 3 commit into one
 
