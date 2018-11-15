@@ -1,11 +1,13 @@
 # Web Dev Udacity
 
+
 ###### 01. Programming foundation with python
 ###### 02. Html and Css
 ###### 04. Responsive Design
 ###### 05. Shell Workshop
 ###### 06. Version Control with Git
 ###### 07. Github and How to Collaborate on a VCS Project
+###### 08. HTTP and Webservers 
 
 
 
@@ -99,6 +101,14 @@ Fixes the space around it
 }
 ```
 
+Using Responsive Tables
+```css
+div.contained_table{
+    width: 100%;
+    overflow-x: auto;
+}
+```
+
 ### Shell WorkShop
 * ; concatinate and run multiple commands at once
 * ~ home directory
@@ -142,4 +152,33 @@ rebasing squash / combine commits into one
 * git remote add origin "repoURL" : to add remote origin
 * git push -u origin master : push to the master branch on the remote
 * git rebase -i HEAD~3 : squash 3 commit into one
+
+### HTTP and Web servers 
+Setting up ncat: run each command on a separate cmd/terminal window
+```
+ncat -l 9999
+ncat localhost 9999
+```
+
+Navigate to a folder and run the code below to view it's content on a web browser
+ ```
+python -m http.server 8080
+```
+
+Run python server with code above then make a get request with the following lines of code on a new terminal
+``` 
+ncat 127.0.0.1 8080
+GET / HTTP/1.1
+Host: localhost
+
+
+```
+
+Listen on a port with ncat then open localhost:port on a browser and enter the code below
+```
+ncat -l 9999
+HTTP/1.1 200 OK
+Content-type: text/plain
+Content-length: 50
+```
 
