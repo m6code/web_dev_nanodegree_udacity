@@ -3,11 +3,19 @@
 
 ###### 01. Programming foundation with python
 ###### 02. Html and Css
-###### 04. Responsive Design
+###### 04. Responsive Design : ~Reponsive Images
 ###### 05. Shell Workshop
 ###### 06. Version Control with Git
 ###### 07. Github and How to Collaborate on a VCS Project
-###### 08. HTTP and Webservers 
+###### 08. HTTP and Webservers ~
+###### 09. Relational Database ~
+###### 10. Full stack foundations ~
+###### 11. Authentication and Authorization ~
+###### 12. Design and Implementation of Web-APIs ~
+###### 
+###### 14.  Google Maps Apis
+
+###### ~ MVC ~ 
 
 
 
@@ -181,4 +189,12 @@ HTTP/1.1 200 OK
 Content-type: text/plain
 Content-length: 50
 ```
+
+### Intro to Relational Databases
+SQL Aggregation
+* count
+* max
+* min
+* avg
+* sum
 
